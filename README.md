@@ -27,7 +27,7 @@ cd TP
 python manage.py startapp tp1
 ```
 
-Créer les dossiers `templates` et `static` au niveau de l'emplacement du projet.
+Créer les dossiers `templates` et `static` dans le dossier projet.
 
 Éditer le fichier `settings.py` qui se trouve au niveau du projet :
 ```python
