@@ -30,6 +30,17 @@ python manage.py startapp tp1
 Créer les dossiers `templates` et `static` au niveau de l'emplacement du projet.
 
 Éditer le fichier `settings.py` qui se trouve au niveau du projet :
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'tp',
+]
+```
 
 ```python
 'DIRS': [BASE_DIR / 'templates'],
